@@ -1,0 +1,74 @@
+[
+  {
+    "name": "Department of Transfusion Medicine, PGIMER Blood Bank",
+    "type": "Blood Bank",
+    "location": "Department of Transfusion Medicine, PGIMER Blood Bank, Madhya Marg, Sector 12, Ward 2, Chandigarh, 160012, India",
+    "city": "Chandigarh",
+    "state": "Chandigarh",
+    "website": "N/A",
+    "contact_number": "N/A",
+    "email": "N/A",
+    "source": "OSM",
+    "hospital_code": ""
+  },
+  {
+    "name": "Rotary and Blood Bank Society Resource Center",
+    "type": "Blood Bank",
+    "location": "Rotary and Blood Bank Society Resource Center, Dakshin Marg, Sector 37, Ward 8, Chandigarh, 160037, India",
+    "city": "Chandigarh",
+    "state": "Chandigarh",
+    "website": "N/A",
+    "contact_number": "N/A",
+    "email": "N/A",
+    "source": "OSM",
+    "hospital_code": ""
+  },
+  {
+    "name": "Government Multispeciality Hospital Blood Bank",
+    "type": "Hospital Blood Bank",
+    "location": "Government Multispeciality Hospital Blood Bank, Madhya Marg, Sector 16, Ward 3, Chandigarh, 160016, India",
+    "city": "Chandigarh",
+    "state": "Chandigarh",
+    "website": "N/A",
+    "contact_number": "N/A",
+    "email": "N/A",
+    "source": "OSM",
+    "hospital_code": ""
+  },
+  {
+    "name": "Silver Oaks Hospital Blood Bank",
+    "type": "Hospital Blood Bank",
+    "location": "Silver Oaks Hospital Blood Bank, Sarovar Path, Sector 51, Ward 13, Mohali, Chandigarh, 160063, India",
+    "city": "Chandigarh",
+    "state": "Chandigarh",
+    "website": "N/A",
+    "contact_number": "N/A",
+    "email": "N/A",
+    "source": "OSM",
+    "hospital_code": ""
+  },
+  {
+    "name": "Command Hospital Blood Bank",
+    "type": "Hospital Blood Bank",
+    "location": "Command Hospital Blood Bank, Madhya Marg, Sector 7, Ward 24, Panchkula, Haryana, 134109, India",
+    "city": "Chandigarh",
+    "state": "Haryana",
+    "website": "N/A",
+    "contact_number": "N/A",
+    "email": "N/A",
+    "source": "OSM",
+    "hospital_code": ""
+  },
+  {
+    "name": "District Hospital Panchkula Blood Bank",
+    "type": "Hospital Blood Bank",
+    "location": "District Hospital Panchkula Blood Bank, Madhya Marg, Sector 7, Ward 24, Panchkula, Haryana, 134109, India",
+    "city": "Chandigarh",
+    "state": "Haryana",
+    "website": "N/A",
+    "contact_number": "N/A",
+    "email": "N/A",
+    "source": "OSM",
+    "hospital_code": ""
+  }
+]

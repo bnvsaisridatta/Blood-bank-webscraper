@@ -1,0 +1,62 @@
+[
+  {
+    "name": "Blood Centre, Government Medical College And Hospital",
+    "type": "Hospital Blood Bank",
+    "location": "Department of Transfusion Medicine, Block D, Level II, Government Medical College and Hospital, Sector-32, , Chandigarh, Chandigarh, Chandigarh",
+    "city": "Chandigarh",
+    "state": "Chandigarh",
+    "website": "https://eraktkosh.mohfw.gov.in",
+    "contact_number": "N/A",
+    "email": "tmgmch@gmail.com",
+    "source": "eRaktKosh",
+    "hospital_code": "6001"
+  },
+  {
+    "name": "Medical College B M G Medical College Shahdol",
+    "type": "Hospital Blood Bank",
+    "location": "PGIMER, Sector 12, Chandigarh, Chandigarh, Chandigarh, Chandigarh",
+    "city": "Chandigarh",
+    "state": "Chandigarh",
+    "website": "https://eraktkosh.mohfw.gov.in",
+    "contact_number": "9888607107",
+    "email": "ransfusionmed63@gmail.com",
+    "source": "eRaktKosh",
+    "hospital_code": "285320"
+  },
+  {
+    "name": "Blood Centre, Govt. Multi Speciality Hospital",
+    "type": "Hospital Blood Bank",
+    "location": "Room No. 164,Blood Bank,Govt.Multispeciality Hospital,  Sector-16, Room No. 164,Blood Bank,GMSH Sector-16, Chandigarh, Chandigarh, Chandigarh",
+    "city": "Chandigarh",
+    "state": "Chandigarh",
+    "website": "https://eraktkosh.mohfw.gov.in",
+    "contact_number": "N/A",
+    "email": "bloodbankgmsh16@gmail.com",
+    "source": "eRaktKosh",
+    "hospital_code": "6003"
+  },
+  {
+    "name": "Rotary And Blood Bank Society Resource Centre",
+    "type": "Blood Bank",
+    "location": "Plot 4, Sector 37A, Dakshin Marg, Chandigarh, Chandigarh, Chandigarh",
+    "city": "Chandigarh",
+    "state": "Chandigarh",
+    "website": "https://yahoo.co.in",
+    "contact_number": "9878707711",
+    "email": "rbbsrc_mks@yahoo.co.in",
+    "source": "eRaktKosh",
+    "hospital_code": "6004"
+  },
+  {
+    "name": "DEMOO BLOOD CENTRE PGI",
+    "type": "Blood Bank",
+    "location": "SECTOR 1001, near bus stand, Hospital Premises, Amritsar, Chandigarh, Chandigarh",
+    "city": "Chandigarh",
+    "state": "Chandigarh",
+    "website": "https://eraktkosh.mohfw.gov.in",
+    "contact_number": "8010224904, 010224904",
+    "email": "blddemoo@gmail.com",
+    "source": "eRaktKosh",
+    "hospital_code": "94101"
+  }
+]

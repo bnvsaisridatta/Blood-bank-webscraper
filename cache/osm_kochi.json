@@ -1,0 +1,86 @@
+[
+  {
+    "name": "NIMS Hospital Blood Bank",
+    "type": "Hospital Blood Bank",
+    "location": "NIMS Hospital Blood Bank, Salem - Kochi - Kanyakumari Road, Neyyatinkara, Neyyattinkara, Thiruvananthapuram, Kerala, 695123, India",
+    "city": "Kochi",
+    "state": "Kerala",
+    "website": "N/A",
+    "contact_number": "N/A",
+    "email": "N/A",
+    "source": "OSM",
+    "hospital_code": ""
+  },
+  {
+    "name": "Sunrise Hospital's Blood Bank",
+    "type": "Hospital Blood Bank",
+    "location": "Sunrise Hospital's Blood Bank, Star Valley Road, Kakkanad, Kochi, Kanayannur, Ernakulam, Kerala, 682030, India",
+    "city": "Kochi",
+    "state": "Kerala",
+    "website": "N/A",
+    "contact_number": "N/A",
+    "email": "N/A",
+    "source": "OSM",
+    "hospital_code": ""
+  },
+  {
+    "name": "Kanya Blood Bank",
+    "type": "Blood Bank",
+    "location": "Kanya Blood Bank, Salem - Kochi - Kanyakumari Road, Chidambara Nagar, Ramavarmapuram, Nagercoil, Kanyakumari, Kanniyakumari, Tamil Nadu, 629001, India",
+    "city": "Kochi",
+    "state": "Tamil Nadu",
+    "website": "N/A",
+    "contact_number": "N/A",
+    "email": "N/A",
+    "source": "OSM",
+    "hospital_code": ""
+  },
+  {
+    "name": "Government Head Quarters Hospital Blood Bank, kanyakumari",
+    "type": "Hospital Blood Bank",
+    "location": "Government Head Quarters Hospital Blood Bank, kanyakumari, Salem - Kochi - Kanyakumari Road, Kurunthancode, Thuckalay, Kanyakumari, Kanniyakumari, Tamil Nadu, 629175, India",
+    "city": "Kochi",
+    "state": "Tamil Nadu",
+    "website": "N/A",
+    "contact_number": "N/A",
+    "email": "N/A",
+    "source": "OSM",
+    "hospital_code": ""
+  },
+  {
+    "name": "Vivek Blood Bank",
+    "type": "Blood Bank",
+    "location": "Vivek Blood Bank, Salem - Kochi - Kanyakumari Road, Prayera Colony, Parvathipuram, Nagercoil, Kanyakumari, Kanniyakumari, Tamil Nadu, 629003, India",
+    "city": "Kochi",
+    "state": "Tamil Nadu",
+    "website": "N/A",
+    "contact_number": "N/A",
+    "email": "N/A",
+    "source": "OSM",
+    "hospital_code": ""
+  },
+  {
+    "name": "Dr. Jeyasekharan Medical Trust and Nursing Home Blood Bank",
+    "type": "Blood Bank",
+    "location": "Dr. Jeyasekharan Medical Trust and Nursing Home Blood Bank, Salem - Kochi - Kanyakumari Road, Prayera Colony, Parvathipuram, Nagercoil, Kanyakumari, Kanniyakumari, Tamil Nadu, 629003, India",
+    "city": "Kochi",
+    "state": "Tamil Nadu",
+    "website": "N/A",
+    "contact_number": "N/A",
+    "email": "N/A",
+    "source": "OSM",
+    "hospital_code": ""
+  },
+  {
+    "name": "Lords Blood Bank (Run By Rajamony Memorial Educational Charitable Trust)",
+    "type": "Blood Bank",
+    "location": "Lords Blood Bank (Run By Rajamony Memorial Educational Charitable Trust), Salem - Kochi - Kanyakumari Road, Kurunthancode, Nagercoil, Kanyakumari, Kanniyakumari, Tamil Nadu, 629003, India",
+    "city": "Kochi",
+    "state": "Tamil Nadu",
+    "website": "N/A",
+    "contact_number": "N/A",
+    "email": "N/A",
+    "source": "OSM",
+    "hospital_code": ""
+  }
+]

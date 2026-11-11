@@ -1,0 +1,50 @@
+[
+  {
+    "name": "Central Red Cross Blood Centre Cuttack",
+    "type": "Blood Bank",
+    "location": "Mangalabag, Medical Road, Manglabag, Cuttack, Odisha",
+    "city": "Cuttack",
+    "state": "Odisha",
+    "website": "https://eraktkosh.mohfw.gov.in",
+    "contact_number": "6712302258, 06712302258",
+    "email": "crcbb.ctc@gmail.com",
+    "source": "eRaktKosh",
+    "hospital_code": "21102"
+  },
+  {
+    "name": "Padmini Care Blood Centre,DRIEMS Institute of Health Science and Hospital",
+    "type": "Hospital Blood Bank",
+    "location": "At Kairapari, Po Kotasahi, Tangi, Cuttack, Odisha",
+    "city": "Cuttack",
+    "state": "Odisha",
+    "website": "https://eraktkosh.mohfw.gov.in",
+    "contact_number": "N/A",
+    "email": "N/A",
+    "source": "eRaktKosh",
+    "hospital_code": "21106"
+  },
+  {
+    "name": "S.C.B. M.C.H. Blood Centre",
+    "type": "Hospital Blood Bank",
+    "location": "SCB MCH ,Dock Road, Manglabag, Cuttack, Cuttack, Cuttack, Odisha",
+    "city": "Cuttack",
+    "state": "Odisha",
+    "website": "https://eraktkosh.mohfw.gov.in",
+    "contact_number": "8280406454",
+    "email": "hod.transmed.scb@gmail.com",
+    "source": "eRaktKosh",
+    "hospital_code": "32087"
+  },
+  {
+    "name": "Ashwini Blood Centre",
+    "type": "Blood Bank",
+    "location": "Plot No.-1/com14,Sector-1,CDA,Bidanasi,Dist- Cuttack, Cuttack, Cuttack, Odisha",
+    "city": "Cuttack",
+    "state": "Odisha",
+    "website": "https://ashwinihospitals.in",
+    "contact_number": "9238008826",
+    "email": "Bloodbank@ashwinihospitals.in",
+    "source": "eRaktKosh",
+    "hospital_code": "283596"
+  }
+]
