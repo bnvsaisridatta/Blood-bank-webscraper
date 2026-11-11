@@ -124,30 +124,61 @@ The city comes from the command line (one city, a comma-separated list, or `--al
 
 **Requirements:** Python 3.9+ and a Google account.
 
+### 5.1 Install
+
 ```bash
+git clone https://github.com/bnvsaisridatta/Blood-bank-webscraper.git
+cd Blood-bank-webscraper
 pip install -r requirements.txt
-cp config/.env.example config/.env      # then edit config/.env
 ```
 
-`config/.env`:
+### 5.2 🔐 Credentials are NOT included in this repository
 
+For security, this repo **does not contain** any credentials. `credentials.json` (Google service account key) and `config/.env` (your sheet ID and settings) are deliberately excluded through `.gitignore`.
+
+**Anyone who wants to run this tool must create their own credentials and their own Google Sheet.** Never use someone else's key, and never commit your own to GitHub. (JCF's real sheet and keys are private to the organisation.)
+
+### 5.3 How to create your own credentials
+
+**A. Create a Google Cloud project and enable the APIs**
+1. Open the [Google Cloud Console](https://console.cloud.google.com/) and create a **New Project** (for example `Blood-Bank-Scraper`).
+2. Go to **APIs & Services → Library**, then search for and **Enable**:
+   - **Google Sheets API**
+   - **Google Drive API**
+
+**B. Create a service account and download its key**
+1. Go to **APIs & Services → Credentials → Create credentials → Service account**.
+2. Give it a name (for example `sheet-writer`), click **Create and Continue**, then **Done**.
+3. Click the new service account → **Keys** tab → **Add key → Create new key → JSON → Create**.
+4. A `.json` file downloads. Rename it to **`credentials.json`** and place it in the **project root folder** (next to `main.py`).
+
+**C. Create your Google Sheet and share it with the service account**
+1. Create a blank sheet at [sheets.new](https://sheets.new) (for example `Blood Bank Master Directory`).
+2. Open `credentials.json` and copy the value of `client_email` (it looks like `sheet-writer@your-project.iam.gserviceaccount.com`).
+3. In the sheet, click **Share**, paste that email, give it **Editor** access, and click **Send**.
+4. Copy the spreadsheet ID from the sheet URL:
+   ```text
+   https://docs.google.com/spreadsheets/d/<SPREADSHEET_ID>/edit
+   ```
+
+**D. Create your `.env` file**
+```bash
+cp config/.env.example config/.env      # on Windows: copy config\.env.example config\.env
+```
+Then edit `config/.env`:
 ```env
-GOOGLE_SPREADSHEET_ID=your_google_spreadsheet_id_here
+GOOGLE_SPREADSHEET_ID=<SPREADSHEET_ID from step C>
 GOOGLE_SERVICE_ACCOUNT_FILE=credentials.json
 REQUEST_DELAY_SECONDS=1.5
 MAX_RETRIES=3
 USER_AGENT=BloodBankDirectoryScraper/1.0
 ```
 
-### Google Sheets access (service account)
+Your final local folder should contain `credentials.json` and `config/.env`. Both stay on your machine only.
 
-1. In the [Google Cloud Console](https://console.cloud.google.com/), create a project and enable the **Google Sheets API** and **Google Drive API**.
-2. Go to **APIs & Services → Credentials → Create credentials → Service account**, then open it and create a **JSON key** under the **Keys** tab.
-3. Save the downloaded key as `credentials.json` in the project root.
-4. Open the target Google Sheet, click **Share**, and add the service account's email (found inside `credentials.json`) as **Editor**.
-5. Copy the spreadsheet ID from the sheet URL (`.../spreadsheets/d/<THIS_PART>/edit`) into `GOOGLE_SPREADSHEET_ID` in `config/.env`.
+> ⚠️ **Never commit `credentials.json` or `config/.env`.** They are already listed in `.gitignore`. If you ever push a key by mistake, delete that key in Google Cloud (**Service Accounts → Keys**) and create a new one.
 
-> ⚠️ `config/.env` and `credentials.json` contain private keys and IDs belonging to JCF's workspace. They must **never** be pushed to GitHub (see `.gitignore`).
+**Running without Google Sheets:** if `credentials.json` or the sheet ID is missing, the tool still runs. It scrapes, merges and caches the data, but skips the Sheets step.
 
 ---
 
